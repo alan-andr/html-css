@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+     Tudo que em HTML é id, em CSS é # 
+     Tudo que em HTML é class, em CSS é .
+     Só pode usar um id em um documento html 
+     É possível usar mais de uma class em um elemento
+     Também pode-se usar um id e uma class juntos
+*/
+
+body {
+    background-color: #3094bf64;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #303ABF;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #303abf;
+    color: white;
+}
+
+h2 {
+    color: #5630bfda;
+}
+
+.basico {
+    color: #30bf39;
+}
+
+.intermediario {
+    color: #a5bf30;
+}
+
+.avancado {
+    color: #bf3030;
+}

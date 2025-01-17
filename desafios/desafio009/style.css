@@ -5,24 +5,33 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #034748, #1481BA);
+    background-image: linear-gradient(to right, #BDC4A7, #D5E1A3);
 }
 
 main {
     background-color: white;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px #0f5f8ba6;
-    width: 1050px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.332);
+    max-width: 1000px;
+    min-width: 280px;
     margin: auto;
-    padding: 15px;
+    padding: 20px;
+    height: 600px;
+    margin-bottom: 100px;
 }
 
 h1 {
-    color: #0CAADC;
+    color: black;
     text-align: center;
-    text-shadow: #0a86accb;
+    text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.296)
 }
 
 p {
     text-align: center;
 }
+
+a.mostrar {
+    height: 250px;
+    width: 250px;
+}
+

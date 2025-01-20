@@ -4,18 +4,24 @@ section#container {
     background-color: aquamarine;
     background-image: url(imagens/espaco.jpg);
     background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 
     height: 100vh;
-
     margin: -8px;
+
+    position: relative;
 }
 
 article#conteudo {
     background-image: url(imagens/astronauta.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 98%;
+    height: 500px;
+    width: 500px;
+
+    position: absolute;
+
+    left: 35%;
+    top: 15%;
+
+    transform: translate(0%, 0%);
 }

@@ -8,7 +8,9 @@ section#container {
     background-size: cover;
     background-attachment: fixed;
 
-    height: 97vh;
+    height: 100vh;
+
+    margin: -8px;
 }
 
 article#conteudo {

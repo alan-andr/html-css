@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+section#container {
+    background-color: palevioletred;
+    background-image: url(imagens/espaco.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 97vh;
+}
+
+article#conteudo {
+    background-color: yellow;
+    background-image: url(imagens/astronauta.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+
+    transform: translate(-10%, -50%)
+
+}

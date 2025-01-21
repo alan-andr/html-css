@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 section#container {
+    max-width: 110%;
+    min-width: 280px;
+
     background-color: aquamarine;
     background-image: url(imagens/espaco.jpg);
     background-position: center center;
@@ -15,6 +18,7 @@ section#container {
 
 article#conteudo {
     background-image: url(imagens/astronauta.png);
+    background-position: center center;
     height: 500px;
     width: 500px;
 

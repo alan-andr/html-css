@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+section#fora {
+    height: 97.5vh;
+    background-color: antiquewhite;
+    background-image: url(espaco.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    margin: 0px
+
+    position: relative;
+}
+
+article#dentro {
+    background-color: none;
+    background-image: url(astronauta.png);
+    width: 500px;
+    height: 500px;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}

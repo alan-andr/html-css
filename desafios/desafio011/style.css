@@ -3,7 +3,7 @@
 section#fora {
     height: 97.5vh;
     background-color: antiquewhite;
-    background-image: url(espaco.jpg);
+    background-image: url(imagens/espaco.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@ section#fora {
 
 article#dentro {
     background-color: none;
-    background-image: url(astronauta.png);
+    background-image: url(imagens/astronauta.png);
     width: 500px;
     height: 500px;
 

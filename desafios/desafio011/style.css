@@ -18,9 +18,11 @@ div#fundo {
 }
 
 div#conteudo {
-
-    background-image: url(imagens/astronauta.png);
     height: 100vh;
+    
+    background-image: url(imagens/astronauta.png);
     background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center center;
     
 }

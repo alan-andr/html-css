@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #6767DB;
+    --cor02: #8F00DB;
+    --cor03: #4700DB;
+    --cor04: #0046DB;
+    --cor05: #0000DB;
+
+    --font01: 'Bentham','Times New Roman', Times, serif;
+    --font02: 'Josefin Sans',Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    height: 30vh;
+    background-image: linear-gradient(to bottom, #6767DB, #8F00DB);
+}
+
+header h1 {
+    font-family: var(--font01);
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    font-family: var(--font02);
+}
+
+nav {
+    background-color: var(--cor02);
+    padding: 6px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1em;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: var(--font02);
+}
+
+nav a:hover {
+    color: var(--cor03);
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    font-family: var(--font02);
+}
+
+

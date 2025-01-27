@@ -1,22 +1,8 @@
 # html-css
 
-<style>
+ <h1>Curso de HTML5 e CSS3 do CursoemVideo</h1>
 
-    a {
-        text-decoration: none;
-    }
-
-    a:hover {
-        background-color: white;
-        color: black;
-        transition-duration: 0.5s;
-    }
-
-</style>
-
- Curso de HTML5 e CSS3 do CursoemVideo
-
- Estou apredendo a criar sites e agora vou aprender a gerenciar meus repositórios. Aqui também estão alguns dos meus projetos durantes o curso.
+ <p>Estou apredendo a criar sites e agora vou aprender a gerenciar meus repositórios. Aqui também estão alguns dos meus projetos durantes o curso.</p>
 
 <a href="https://alan-andr.github.io/projeto-android/" target="_blank">Projeto android</a>  
 

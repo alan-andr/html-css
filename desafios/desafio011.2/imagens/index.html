@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Alinhamento vertical astronauta</title>
+    <style>
+
+        body {
+            margin: 0px;
+        }
+
+        #container {
+            position: relative;
+
+            background-image: url(espaco.jpg);
+            background-size: cover;
+            background-position: center center;
+
+            height: 97.1vh;
+            padding: 10px;
+        }
+
+        #conteudo {
+            position: absolute;
+            
+            background-image: url(astronauta.png);
+            height: 490px;
+            width: 468px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%,-50%);
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>

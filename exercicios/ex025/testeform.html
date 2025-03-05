@@ -6,14 +6,27 @@
     <title>Teste de formário</title>
 </head>
 <body>
-    <form action="cadastro.php">
+    <h1>Formulário teste</h1>
+    <form action="cadastro.php" method="get" autocomplete="off">
         <p>
-            Nome:
-
+            <label for="inome">Nome:</label>
+            <input type="text" name="name" id="iname">
         </p>
-        <p>Sobrenome:</p>
-        <p>E-mail:</p>
-        <p>Senha:</p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <label for="iemail">E-mail:</label>
+            <input type="text" name="email" id="iemail">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="text" name="senha" id="isenha">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
     </form>
 </body>
 </html>

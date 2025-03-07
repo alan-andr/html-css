@@ -66,5 +66,25 @@
             <input type="reset" value="Limpar">
         </p>
     </form>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Cadastre-se aqui</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" placeholder="Digite seu nome completo" size="30">
+            </p>
+            <p>
+                <label for="iiemail">E-mail</label>
+                <input type="email" name="email" id="iiemail" size="30" placeholder="Digite seu e-mail">
+            </p>
+            <p>
+                <label for="iisenha">Senha</label>
+                <input type="password" name="senha" id="iisenha" minlength="4" maxlength="8" placeholder="digita sua senha">
+            </p>
+            <p>
+                <input type="submit" value="Cadastrar">
+            </p>
+        </fieldset>
+    </form>
 </body>
 </html>

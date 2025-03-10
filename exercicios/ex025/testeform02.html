@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Datalist e Select</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="icelular">Modelo de celular:</label>
+            <select name="celular" id="icelular">
+                <option value="">Escolha...</option>
+                <optgroup label="Apple">
+                    <option value="IPH11">iPhone 11 32GB</option>
+                    <option value="IPH11">iPhone 11 Pro 64GB</option>
+                    <option value="IPH11">iPhone 11 Pro Max 256GB</option>
+                </optgroup>
+                <optgroup label="Samsung">
+                    <option value="Galaxy">Galaxy S10 Lite</option>
+                    <option value="Galaxy">Galaxy S20 Ultra 128GB</option>
+                    <option value="Galaxy">Galaxy Note10 256GB</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="imsg">Especificações técnicas:</label><br>
+            <textarea name="mensagem" id="imsg" placeholder="Digite aqui" cols="30" rows="10">
+
+            </textarea>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="">Escolha...</option>
+                <optgroup>
+                    <option value="Administrador"></option>
+                    <option value="Contabilista"></option>
+                    <option value="Gestor de RH"></option>
+                    <option value="Animador"></option>
+                    <option value="Ator"></option>
+                    <option value="Fotógrafo"></option>
+                    <option value="Analista de Sistemas"></option>
+                    <option value="Estatístico"></option>
+                </optgroup>
+            </datalist>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

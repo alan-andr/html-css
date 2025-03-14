@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilos/estilo-geral.css">
+    <link rel="stylesheet" href="estilos/retrato.css">
+    <link rel="stylesheet" href="estilos/paisagem.css">
+</head>
+<body>
+    <h1>Cadastre-se</h1>
+    <form action="" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="Nome" id="inome" placeholder="Digite seu nome completo" size="30" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" size="30" required>
+            </p>
+            <p>
+                <label for="isenha">Senha</label>
+                <input type="password" name="senha" id="isenha" min="4">
+            </p>
+            <p>
+                <label for="iest">Estado</label>
+                <select name="estado" id="iest">
+                    <option value="" selected >Selecione...</option>
+                    <optgroup label="Estados mistos">
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <optgroup>
+                        <option value="Advogado"></option>
+                        <option value="Ladrão"></option>
+                        <option value="Juiz"></option>
+                    </optgroup>
+                </datalist>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

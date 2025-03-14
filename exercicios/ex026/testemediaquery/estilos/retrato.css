@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (orientation: portrait) {
+    body {
+        background-color: gray;
+    }
+
+    form {
+        width: 400px;
+        margin: auto;
+    }
+
+    label {
+        padding: 20px 0px 20px 0px;
+    }
+}

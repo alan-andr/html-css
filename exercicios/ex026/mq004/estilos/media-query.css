@@ -53,7 +53,7 @@ Grandes telas: 1367px ou acima
     img#tv { display: none;}
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1366px) { /* DESKTOP */
+@media screen and (min-width: 1024px) and (max-width: 1366px) { /* DESKTOP */
     body {
         background-image: url(../imagens/back-pc.jpg);
     }
@@ -65,7 +65,7 @@ Grandes telas: 1367px ou acima
     img#tv { display: none;}
 }
 
- @media screen and (min-width: 1367px) { /* GRANDES TELAS */
+ @media screen and (min-width: 1366px) { /* GRANDES TELAS */
     body {
         background-image: url(../imagens/back-tv.jpg);
     }

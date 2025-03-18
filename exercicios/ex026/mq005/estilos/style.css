@@ -20,8 +20,22 @@ header > h1 {
     padding: 10px;
 }
 
-menu {
+i#burguer {
+    background-color: rgb(69, 69, 69);
     display: block;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+    transition-duration: .5s;
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {

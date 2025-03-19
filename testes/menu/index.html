@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="estilos/geral.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Teste</h1>
+        <i id="burguer" class="fa-solid fa-bars" onclick="clickMenu()"></i>
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Saiba mais</a></li>
+                </ul>
+            </menu>
+    </header>
+    <main>
+        <h2>Título 01</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sint nihil, voluptatem numquam iure adipisci modi itaque nam? Repellendus, ex excepturi. Tenetur a itaque provident aperiam modi, et perferendis maxime?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At necessitatibus ex aut tempora facere iusto doloremque placeat cupiditate nihil perferendis, cumque laudantium ab odit, commodi, eum cum eius laboriosam. Nesciunt!</p>
+
+        <p>Fugit, ad itaque? Illum exercitationem quod libero deleniti quae adipisci consequatur, sequi error nemo maiores enim porro dignissimos, fugiat dolorum. Ullam, illum consequatur praesentium tempore optio exercitationem necessitatibus saepe repudiandae?</p>
+
+        <h2>Título 02</h2>
+        <p>Consequuntur nam dignissimos porro. Praesentium perferendis repudiandae vitae? Accusamus libero provident numquam dolorem aspernatur, officia et ipsum ipsam quo eveniet error ea autem deserunt doloremque impedit mollitia harum? Exercitationem, quis.</p>
+
+        <p>A, illum eveniet, tempora voluptates quisquam veritatis enim fugit adipisci ad amet accusamus earum, autem eligendi quidem quos quasi est nam ab iste aut dolorum dolore recusandae? Harum, autem exercitationem?</p>
+    </main>
+    <script src="https://kit.fontawesome.com/4ac3d91d9a.js" crossorigin="anonymous"></script>
+    <script>
+
+        function clickMenu () {
+            if ( itens.style.display == 'block') {
+                    itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho () {
+            if ( window.innerWidth >= 768 ) {
+                    itens.style.display = 'block'
+            } else {
+                    itens.style.display = 'none'
+            }
+        }
+
+    </script>
+</body>
+</html>

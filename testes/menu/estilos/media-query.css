@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
+
     menu {
         display: block;
         all: unset;
@@ -12,7 +13,7 @@
 
     menu > ul > li {
         display: inline;
-        margin: 15px;
+        margin: 0 15px;
     }
 
 }

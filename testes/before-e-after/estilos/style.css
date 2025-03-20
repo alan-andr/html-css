@@ -7,13 +7,37 @@
 h1 {
     position: relative;
     width: max-content;
+    padding: 10px;
+
+    background: linear-gradient(to right, black, gray);
+    background-clip: text;
+    color: transparent;
 }
 
-h1:before {
+h1::after {
     content: '';
-    background-image: linear-gradient(to right, red , blue);
+
+    background-image: linear-gradient(to left, red,  blue);
+
     height: 4px;
     width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border-radius: 10px;
+    transition-duration: .50s;
+}
+
+h1::before{
+    content: '';
+
+    background-image: linear-gradient(to right, red , blue);
+
+    height: 4px;
+    width: 100%;
+
     position: absolute;
     bottom: 0;
     left: 0;

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Flexbox</title>
+    <style>
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+
+        div.container {
+            background-color: lightgreen;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            align-content: flex-start;
+
+            padding: 10px;
+        }
+
+        div.item {
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <picture>
+                <source media="(max-width: 700px)" srcset="imagens/grade-03-p.jpg">
+                <source media="(max-width: 1000px)" srcset="imagens/grade-03-m.jpg">
+                <img src="imagens/grade-03-g.jpg" alt="">
+            </picture>
+        </div>
+        <div class="item">
+            <picture>
+                <source media="(max-width: 700px)" srcset="imagens/portao-03-p.jpg">
+                <source media="(max-width: 1000px)" srcset="imagens/portao-03-m.jpg">
+                <img src="imagens/portao-03-g.jpg" alt="">
+            </picture>
+        </div>
+    </div>
+</body>
+</html>

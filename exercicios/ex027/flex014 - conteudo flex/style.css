@@ -67,3 +67,8 @@ div.media > iframe {
     width: 90%;
     margin: auto;
 }
+
+iframe {
+    border-radius: 15px;
+    overflow: hidden;
+}

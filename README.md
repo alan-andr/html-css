@@ -16,5 +16,5 @@
 
 <a href="https://alan-andr.github.io/html-css/testes/menu/index.html" target="_blank">Testes</a>
 
-<a href="html-css/testes/shapes-sections/index.html" target="_blank">Section com formatos criativos</a>
+<a href="https://alan-andr.github.io/html-css/testes/shapes-sections/index.html" target="_blank">Section com formatos criativos</a>
 
